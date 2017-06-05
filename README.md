@@ -27,7 +27,9 @@ Connect to your server, if needed
 Go the chi database you created yesterday
 In the SQL query window, run the following queries.
 Click on the OK tab/button to save your database
-Open the SQL editor and run the following queries
+Open the SQL editor and run the following queries:
+
+```
 CREATE TABLE customers (
     id SERIAL PRIMARY KEY,
     first_name character varying(60),
@@ -137,7 +139,9 @@ VALUES (1, 3, 0),
 (7, 2, 4),
 (6, 3, 88),
 (6, 4, 3);
-Entity Relationship Diagram (ERD)
+```
+
+## Entity Relationship Diagram (ERD)
 
 See a diagram of the available entities and their relationships. https://docs.google.com/drawings/d/1eA7JJtCVDL0K45aVzbxIUrgWXHoKY5vv1jAhssC2c1A/edit
 
@@ -152,9 +156,12 @@ Write the SQL query that answers the question, below that comment.
 Once one person writes half of the queries, switch off.
 Example question and answer
 
+```
 -- 0. Get all the users
 SELECT * FROM customers;
-Tasks
+```
+
+## Tasks
 
 Get all customers and their addresses.
 Get all orders and their line items.
